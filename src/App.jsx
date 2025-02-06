@@ -77,13 +77,13 @@ const handleChange5 = (event) => {
               className="input3"
               type="text"
               placeholder="YY"
-              onChange={handleChange4}
+              onChange={handleChange3}
             />
             <input
               className="input2"
               type="text"
               placeholder="MM"
-              onChange={handleChange3}
+              onChange={handleChange4}
             />
             <input placeholder="e.g. 123" type="text" onChange={handleChange5} className="input4" />
           </div>
