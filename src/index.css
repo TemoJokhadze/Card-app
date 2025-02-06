@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+}
+.cont1 {
+  width: 483px;
+  /* height: 700px; */
+  height: 100vh;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #21092f;
+  position: absolute;
+}
+.card1 {
+  width: 407px;
+  height: 205px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: linear-gradient(#6348fe, #610595);
+  margin-top: 50px;
+  margin-left: 150px;
+  /* display: flex; */
+  padding: 40px;
+}
+.circles {
+  width: 84px;
+  height: 47px;
+  top: 28px;
+  left: 32px;
+  gap: 0px;
+  opacity: 0px;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.circle1 {
+  width: 46.96px;
+  height: 47px;
+  top: 28px;
+  left: 32px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  border-radius: 100%;
+}
+.circle2 {
+  width: 21.13px;
+  height: 21.15px;
+  top: 40.93px;
+  left: 94.87px;
+  gap: 0px;
+  border: 1px solid white;
+  opacity: 0px;
+  background: linear-gradient(#6348fe, #610595);
+  background-color: white;
+  border-radius: 100%;
+}
+.numbers {
+  margin-top: 70px;
+  color: white;
+  letter-spacing: 6px;
+}
+.name {
+  color: white;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.86px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.86px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.card2 {
+  width: 447px;
+  height: 245px;
+  top: 469px;
+  left: 258px;
+  gap: 0px;
+  opacity: 0px;
+  /* background: linear-gradient(#FFFFFF, #D2D3D9); */
+  background-color: #d2d3d9;
+  margin-top: 30px;
+  margin-left: 270px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rect {
+  width: 447px;
+  height: 54px;
+  background-color: #2f2f2f;
+  margin-top: 25px;
+  position: absolute;
+  margin-top: -150px;
+}
+.rect2 {
+  width: 361px;
+  height: 38px;
+  background-color: #adb5be;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.numbs {
+  margin-right: 10px;
+  color: white;
+}
+.cont2 {
+  width: 381px;
+  height: 352px;
+  /* background-color: #6348fe; */
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 180px;
+}
+.title1 {
+  margin-top: -2px;
+}
+.input1 {
+  width: 381px;
+  height: 45px;
+  top: 24px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 8px;
+  border: 1px solid #dfdee0;
+}
+.input1::placeholder {
+  /* color: black; */
+  width: 174px;
+  height: 23px;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.97px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 10px;
+}
+.input2 {
+  width: 80px;
+  height: 45px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+}
+.input3 {
+  width: 80px;
+  height: 45px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin-left: 10px;
+  border: 1px solid lightgray;
+  
+}
+.input4{
+  width: 80px;
+  height: 45px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid lightgray;
+  margin-left: 25px;
+}
+.input3::placeholder {
+  padding: 25px;
+}
+.input2::placeholder {
+  padding: 25px;
+}
+.input4::placeholder{
+  padding: 10px;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  height: 109px;
+  top: 465px;
+  left: 832px;
+  gap: 0px;
+  opacity: 0px;
+}
+button {
+  width: 381px;
+  height: 53px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #21092F;
+  /* margin-top: -20px; */
+  margin-top: 20px;
+  color: white;
+  font-size: 18px;
+}
+.title4{
+  margin-left: 70px;
+}
+.inpts{
+  margin-top: -60px;
+  margin-left: -15px;
+}
